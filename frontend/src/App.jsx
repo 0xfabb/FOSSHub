@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Migration from "./pages/Migration";
 import Leaderboard from "./pages/Leaderboard";
-import LandingPage from "./pages/LandingPage"
 import Profile from "./pages/Profile";
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
     <Router>
       <Routes>
 
-        {/* <Route path="/" element={<Login />} /> */}
+        
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/" element={<Dashboard />} />
         <Route path="/migration" element={<Migration />} />
