@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 const Dashboard = () => {
     return (
-        <div >
+        <div className="bg-dark-2 h-screen text-white" >
           <Navbar />
 
         Dashboard Coming Soon 🚀

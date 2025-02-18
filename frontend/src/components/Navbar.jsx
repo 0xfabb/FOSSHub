@@ -5,14 +5,14 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow-md">
+    <nav className="bg-white dark:bg-dark-1 shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
+    
         <Link to="/dashboard" className="text-2xl font-bold text-blue-600 dark:text-white">
           FOSS Hub
         </Link>
 
-        {/* Desktop Menu */}
+      
         <div className="hidden md:flex space-x-6">
           <Link to="/dashboard" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 transition">
             Home
