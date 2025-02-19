@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
 const mockAlternatives = [
@@ -60,7 +59,7 @@ function Migration() {
 
   return (
     <>
-      <Navbar />
+      
       <div className="container mx-auto py-12 px-6 bg-dark-2 text-white">
         <h1 className="text-4xl font-bold text-center  mb-8">
           Find Open-Source Alternatives

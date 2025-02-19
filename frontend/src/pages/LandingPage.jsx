@@ -11,7 +11,7 @@ const LandingPage = () => {
       <div className="bg-black bg-opacity-75 backdrop-blur-md h-screen">
         <div className="overflow-hidden bg-gradient-to-b  to-blue-700 from-purple-400 via-black/40  text-white w-screen h-screen relative backdrop-blur-lg">
           <div className=" fixed left-1/2 top-1/3 translate-x-[-50%] text-light-2 text-center  font-primary font-bold">
-            <h1 className="text-5xl p-2 line">
+            <h1 className="text-5xl p-2 leading-snug">
               {" "}
               Migrate to FOSS! Track Your Contributions. Level Up!
             </h1>
