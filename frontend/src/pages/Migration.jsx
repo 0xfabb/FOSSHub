@@ -61,8 +61,8 @@ function Migration() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto py-12 px-6">
-        <h1 className="text-4xl font-bold text-center text-gray-900  mb-8">
+      <div className="container mx-auto py-12 px-6 bg-dark-2 text-white">
+        <h1 className="text-4xl font-bold text-center  mb-8">
           Find Open-Source Alternatives
         </h1>
 
@@ -101,7 +101,7 @@ function Migration() {
           {filteredAlternatives.map((alt) => (
             <div
               key={alt.id}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 border-l-4 border-blue-500 hover:scale-[1.02] transition"
+              className=" bg-dark-3 rounded-lg shadow-lg p-6 border-l-4 border-blue-500 hover:scale-[1.02] transition"
             >
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
                 {alt.name}
@@ -124,7 +124,7 @@ function Migration() {
           </button>
         </div>
 
-        <div className="bg-blue-50 dark:bg-gray-900 p-8 rounded-lg text-center shadow-lg">
+        <div className="bg-blue-50 bg-dark-3 p-8 rounded-lg text-center shadow-lg">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
             Join the Open-Source Movement!
           </h2>

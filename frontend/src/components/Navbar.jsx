@@ -9,7 +9,7 @@ function Navbar() {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
     
         <Link to="/dashboard" className="text-2xl font-bold text-blue-600 dark:text-white">
-          FOSS Hub
+          FOSSHub
         </Link>
 
       
@@ -47,7 +47,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-900 shadow-md">
+        <div className="md:hidden bg-white bg-dark-3 shadow-md">
           <Link to="/" className="block px-6 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
             Home
           </Link>
